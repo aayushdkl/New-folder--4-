@@ -12,7 +12,8 @@ body {
 }
 
 header {
-    background-color: #333;
+    /* background-color: #333333; */
+    background-color: #6c4cec;
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -25,20 +26,37 @@ header h1 {
 /* Navbar styles */
 /* Add your navbar styles here */
 
-.content-section {
+/* .content-section {
     display: flex;
     margin-top: 20px;
+    background-color: #ddd;
 }
 
 .menu-container {
     flex: 1;
-    background-color: #ddd;
+
+    padding: 20px;
+}
+
+.scrollable-menu {
+    overflow-y: auto;
+} */
+
+.content-section {
+    display: flex;
+    margin-top: 20px;
+    background-color: white; /* Change the background color to white */
+}
+
+.menu-container {
+    flex: 1;
     padding: 20px;
 }
 
 .scrollable-menu {
     overflow-y: auto;
 }
+
 
 .scrollable-menu ul {
     list-style-type: none;
@@ -184,3 +202,65 @@ footer {
 .scrollable-menu ul li a:hover {
     background-color: #f0f0f0;
 }
+
+
+/* Styles for Create a Post section */
+.create-post-section {
+    /* display: none; */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-post-section input[type="text"],
+.create-post-section textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.create-post-section input[type="file"] {
+    margin-bottom: 15px;
+}
+
+.create-post-section button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-post-section button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for posts */
+.posts-section {
+    margin-top: 20px;
+}
+
+.post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.post p {
+    margin-bottom: 15px;
+}
+
+/* Other post styling (buttons, voting, etc.) will be added dynamically */
+
+

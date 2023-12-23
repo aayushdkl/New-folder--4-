@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Posts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Posts</h1>
+        <button id="createPostBtn" class="create-post-btn">Create a Post</button>
+        <div class="create-post-section" id="createPostSection">
+            <form id="postForm" class="post-form" enctype="multipart/form-data">
+                <input type="text" id="postHeading" placeholder="Heading" required>
+                <textarea id="postDescription" placeholder="Description" required></textarea>
+                <input type="file" id="postImage" accept="image/*">
+                <button type="submit" id="submitPostBtn">Post</button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section class="posts-section" id="postsSection">
+            <!-- Posts will be dynamically added here -->
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
