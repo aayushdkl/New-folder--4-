@@ -1,0 +1,186 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Navbar styles */
+/* Add your navbar styles here */
+
+.content-section {
+    display: flex;
+    margin-top: 20px;
+}
+
+.menu-container {
+    flex: 1;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+.scrollable-menu {
+    overflow-y: auto;
+}
+
+.scrollable-menu ul {
+    list-style-type: none;
+}
+
+.scrollable-menu ul li {
+    margin-bottom: 10px;
+}
+
+.parent-content {
+    flex: 3;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Individual post styles (for posts.html) */
+.post {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.post h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.post p {
+    margin-bottom: 10px;
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post-actions {
+    display: flex;
+    align-items: center;
+}
+
+.post-actions button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.post-actions button:hover {
+    background-color: #0056b3;
+}
+
+.post-actions span {
+    font-size: 14px;
+}
+
+.user-profile {
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profile-menu {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.profile-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-menu li {
+    padding: 10px;
+    text-align: center;
+}
+
+.profile-menu a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    width: 90px;
+}
+
+.profile-menu a:hover {
+    background-color: #f0f0f0;
+}
+
+
+.to_change{
+    display: flex;
+    
+}
+
+/* For the scrollable menu */
+.scrollable-menu {
+    overflow-y: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.scrollable-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.scrollable-menu ul li {
+    margin-bottom: 10px;
+}
+
+.scrollable-menu ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+}
+
+.scrollable-menu ul li a:hover {
+    background-color: #f0f0f0;
+}
